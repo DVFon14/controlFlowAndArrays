@@ -23,13 +23,13 @@ else
 var num2 
 if(num2>0){
     if(num2>=100){console.log("Positive and greater than or equal to 100");}
-    else {console.log{"Positive and less than 100";}}
+    else {console.log("Positive and less than 100");}
 }
 else{console.log("Negative or zero");}
 
 var grade
 if(grade >= 90) {console.log("Your grade is an A");}
-else if(grade >= 80 && <90) {console.log("Your grade is a B");}
-else if(grade >= 70 && <60) {console.log("Your grade is a C");}
-else if(grade >= 55 && <70) {console.log("Your grade is a D");}
+else if(grade >= 80 && grade< 90) {console.log("Your grade is a B");}
+else if(grade >= 70 && grade< 60) {console.log("Your grade is a C");}
+else if(grade >= 55 && grade< 70) {console.log("Your grade is a D");}
 else {console.log("Your grade is a F")}
