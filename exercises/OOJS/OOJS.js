@@ -102,7 +102,7 @@ User.prototype.login =function (){ //we can't call proptorype on the instances o
     console.log(this.email, "has logged in");
 }
 
-User.prototype.logout =function (){ //we can't call proptorype on the instances of the object such as userONE
+User.prototype.logout =function (){ //we can't call prototype on the instances of the object such as userONE
     this.online =true;
     console.log(this.email, "has logged out");
 }
